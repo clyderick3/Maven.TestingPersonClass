@@ -8,9 +8,12 @@ public class Person {
     private int age;
 
     public Person() {
+        this.name = "";
+        this.age = Integer.MAX_VALUE;
     }
 
     public Person(int age) {
+        this.age = age;
     }
 
     public Person(String name) {
