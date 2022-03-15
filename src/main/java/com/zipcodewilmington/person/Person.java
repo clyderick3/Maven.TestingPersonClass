@@ -7,20 +7,20 @@ public class Person {
     private String name;
     private int age;
 
-    public Person() {
+    public Person() { //nullary constructor
         this.name = "";
         this.age = Integer.MAX_VALUE;
     }
 
-    public Person(int age) {
+    public Person(int age) { //parameterized constructor
         this.age = age;
     }
 
-    public Person(String name) {
+    public Person(String name) { //parameterized constructor
         this.name = name;
     }
 
-    public Person(String name, int age) {
+    public Person(String name, int age) { //full constructor
         this.name = name;
         this.age = age;
     }
